@@ -49,10 +49,10 @@ public class Person {
     }
     public static void studying(Person p){
         System.out.println(p.getAge()+" years old "+p.getName()+ " living in "+
-                p.getAddress()+" whose phonenumber is "+p.getPhoneNO()+" is Studing and is Male: "+p.isMale());
+                p.getAddress()+" whose phone number is "+p.getPhoneNO()+" is Studying and is Male: "+p.isMale());
     }
     public static void working(Person p){
         System.out.println(p.getAge()+" years old "+p.getName()+ " living in "+
-                p.getAddress()+" whose phonenumber is "+p.getPhoneNO()+" is working and is Male: "+p.isMale());
+                p.getAddress()+" whose phone number is "+p.getPhoneNO()+" is working and is Male: "+p.isMale());
     }
 }
