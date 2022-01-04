@@ -1,6 +1,6 @@
 package day5;
 
-public class SingleLevel {
+public class Hierarchical {
 
     public static void main(String[] args) {
         Square s1= new Square();
