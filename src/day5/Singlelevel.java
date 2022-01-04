@@ -5,7 +5,9 @@ public class Singlelevel {
         Derived d= new Derived(); //Base d= new Derived();
 
         d.parentClass();
-       d.childClass();          // ((Derived) d).childClass();
+        String retString = d.childClass();
+        System.out.println(retString);
+        //System.out.println(d.childClass());          // ((Derived) d).childClass();
 
 
     }
