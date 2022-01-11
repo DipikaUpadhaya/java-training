@@ -29,8 +29,16 @@ public class DatePractice {
         String formattedDate = dateFormatter.format(localDateTime);
         Logger.getGlobal().info(formattedDate);
 
+        //current
         Calendar calendar = Calendar.getInstance();
         Logger.getGlobal().info(String.valueOf(calendar));
+
+        //Specific
+        Calendar specificCalendar = Calendar.getInstance();
+        specificCalendar.set(Calendar.YEAR, 1993);
+        specificCalendar.set(Calendar.MONTH, 12);
+        specificCalendar.set(Calendar.DAY_OF_MONTH, 7);
+        Logger.getGlobal().info(String.valueOf(specificCalendar));
 
     }
 }
