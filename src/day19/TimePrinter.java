@@ -11,8 +11,8 @@ public class TimePrinter implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         Logger.getGlobal().info("Action Performed method called in every 1 second by the object of TimePrinter");
-//        System.out.println("At the tone, the time is "
-//                + Instant.ofEpochMilli(e.getWhen()));
-//        Toolkit.getDefaultToolkit().beep();
+        System.out.println("At the tone, the time is "
+                + Instant.ofEpochMilli(e.getWhen()));
+        Toolkit.getDefaultToolkit().beep();
     }
 }
